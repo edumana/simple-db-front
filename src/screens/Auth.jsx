@@ -10,7 +10,7 @@ export default function Auth({ handleLoginOrSignup, authStatus }) {
         maxWidth='sm' 
         sx={{ ...centerFlex, height: '100vh', flexDirection: 'column' }}
       >
-        <Typography variant='h3' sx={{m:2}}>{authStatus}</Typography>
+        <Typography variant='h3' sx={{m:2}}>{ authStatus }</Typography>
         <SimpleAuth handleLoginOrSignup={handleLoginOrSignup}/>
       </Container>
     </>
